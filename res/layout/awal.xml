@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    >
+
+   
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_below="@+id/silahkan"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/header" />
+
+    <Button
+        android:id="@+id/TulisPesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gambar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="Tulis Pesan" />
+
+    <Button
+        android:id="@+id/bacasms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TulisPesan"
+        android:layout_below="@+id/TulisPesan"
+        android:text="Kotak Masuk" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bacasms"
+        android:text="Tentang" />
+
+    <TextView
+        android:id="@+id/selamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gambar"
+        android:layout_centerHorizontal="true"
+        android:text="APLIKASI PENGAMAN SMS"
+        android:textColor="#333333" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="33dp"
+        android:text="Aplikasi Pengaman SMS Ujian Akhir Semester Pemrograman Perangkat Bergerak Kelas B"
+        android:textSize="20dp" />
+
+</RelativeLayout>
